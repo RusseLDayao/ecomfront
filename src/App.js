@@ -5,12 +5,14 @@ import ShopCategory from './pages/ShopCategory';
 import LoginSignup from './pages/LoginSignup';
 import Cart from './pages/Cart'
 import Product from './pages/product';
+import Hero from './components/hero/Hero';
 
 function App() {
   return (
     <div className="">
       <BrowserRouter>
         <Nabvar />
+        <Hero />
         <Routes>
           <Route path='/' element={<newDrop/>} />
           <Route path='/mens' element={<ShopCategory category="men" />} />
