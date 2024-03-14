@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div> 
         <div>
-          <img className=' h-[500px] w-[100vw] bg-black' src={landing_banner} alt="air jordan 1 lost & found" />
+          <img className=' cursor-pointer h-[500px] w-[100vw] bg-black' src={landing_banner} alt="air jordan 1 lost & found" />
         </div>
     </div>
   )
