@@ -28,7 +28,7 @@ export const Nabvar = () => {
         w-[100%] h-[3px] rounded-[10px]'/>:<></>}</li>
       </ul>
 
-      <div className={ ` sm:hidden flex flex-1 justify-end items-center'}
+      <div className={ ` sm:hidden flex flex-1 justify-end items-center
        font-bold pt-[60px] pr-[8px]` }>
           <img src={toggle ? close : menu1} onClick={() => setToggle((prev) => !prev )} 
           alt="menu" className='w-[50px] h-[50px] object-contain justify-end'/>
@@ -51,11 +51,11 @@ export const Nabvar = () => {
         </div>
       </div>
 
-      <div className='login-button items-center gap-[70px]  sm:gap-[10px] sm:flex hidden pr-[50px]'>
-        <Link to='/login' > <button className='cursor-pointer rounded-[75px] border-solid border-2 border-[#515151] w-[100px] 
+      <div className='login-button items-center w-100 pr-17 sm:gap-[10px] sm:flex hidden '>
+        <Link to='/login' > <button className=' cursor-pointer rounded-full border-solid border-2 border-[#515151] w-[100px] 
         h-[50px] font-bold text-[#030712]'>Login</button> </Link>
         <Link to='/cart'> <img src={cart_icon} alt="Cart icon" className="w-[40px] h-[40px] cursor-pointer sm:flex hidden " /> </Link>
-        <div className='sm:flex hidden cart_item_count w-[22px] h-[22px]  justify-center mt-[-35px] ml-[-55px] rounded-[11px] text-[#f8fafc]
+        <div className='sm:flex hidden cart_item_count w-[22px] h-[22px]  justify-center mt-[-20px] ml-[-20px] rounded-[11px] text-[#f8fafc]
         bg-[#dc2626] text-base '>5</div>
       </div>
     </div>

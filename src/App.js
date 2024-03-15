@@ -6,6 +6,8 @@ import LoginSignup from './pages/LoginSignup';
 import Cart from './pages/Cart'
 import Product from './pages/product';
 import Hero from './components/hero/Hero';
+import Popular from './components/Popular/Popular';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Nabvar />
         <Hero />
+        <Popular />
         <Routes>
           <Route path='/' element={<newDrop/>} />
           <Route path='/mens' element={<ShopCategory category="men" />} />
