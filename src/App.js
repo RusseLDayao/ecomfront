@@ -5,8 +5,7 @@ import ShopCategory from './pages/ShopCategory';
 import LoginSignup from './pages/LoginSignup';
 import Cart from './pages/Cart'
 import Product from './pages/product';
-import Hero from './components/hero/Hero';
-import Popular from './components/Popular/Popular';
+import Shop from './pages/shop'
 
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
     <div className="">
       <BrowserRouter>
         <Nabvar />
-        <Hero />
-        <Popular />
+        <Shop />
         <Routes>
           <Route path='/' element={<newDrop/>} />
           <Route path='/mens' element={<ShopCategory category="men" />} />

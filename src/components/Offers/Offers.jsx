@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
+import exclusive_img from '../asset/exclusive_img.svg';
 
-export const Offers = () => {
+const Offers = () => {
   return (
-    <div className='offers w-[60%] h-[60vh] flex m-0 pr-[140px] mb-[150px]  '>
-        <div className='offers_left'>
-            <h1>11.11 Exclusive Offer</h1>
-            <h1>Just for you!</h1>
-            <p>What's on my list?</p>
-            <button>View</button>
+    <div className="offers flex flex-col mt-[1000px] items-center min-h-screen p-6">
+      <h1 className="text-[50px] font-[800] text-center text-171717]">EXCLUSIVE FOR YOU</h1>
+      <hr className="w-full h-[6px] bg-[#b91c1c] rounded-lg" />
+      <div className="image-container flex justify-center items-center relative">
+        <img src={exclusive_img} alt="exclusive offer" className="w-full h-auto object-cover" />
+        <div className="button-container absolute bottom-20 right-40 flex text-[40px] font-[800]">
+          <button className="bg-[#b91c1c] text-white px-4 py-2 rounded-full w-[150px] h-[75px]">View</button>
         </div>
-        <div className='offers_right'>
-            <img src={} alt="" /> 
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default Offers;

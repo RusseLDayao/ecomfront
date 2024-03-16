@@ -4,8 +4,8 @@ import Item from '../Item/Item';
 
 const Popular = () => {
   return (
-    <div className='popular flex-col items-center gap-[10px] h-[90vh]'>
-      <h1 className='text-[#171717] text-[50px] font-[600] text-center'>Upcoming 11.11 Sale!</h1>
+    <div className='popular flex-col items-center gap-[10px] h-[90px]'>
+      <h1 className='text-[#171717] text-[50px] font-[800] text-center'>Upcoming 11.11 Sale!</h1>
       <hr className='w-full h-[6px] rounded-[10px] bg-[#b91c1c]' />
 
       {/* New wrapper with flexbox for horizontal centering */}
