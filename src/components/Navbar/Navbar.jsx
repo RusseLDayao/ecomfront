@@ -52,8 +52,8 @@ export const Nabvar = () => {
       </div>
 
       <div className='login-button items-center w-100 pr-17 sm:gap-[10px] sm:flex hidden '>
-        <Link to='/login' > <button className=' cursor-pointer rounded-full border-solid border-2 border-[#515151] w-[100px] 
-        h-[50px] font-bold text-[#030712]'>Login</button> </Link>
+        <Link to='/login' > <button className=' cursor-pointer rounded-full border-solid border-2 bg-[#030712] w-[100px] 
+        h-[50px] font-bold text-white '>Login</button> </Link>
         <Link to='/cart'> <img src={cart_icon} alt="Cart icon" className="w-[40px] h-[40px] cursor-pointer sm:flex hidden " /> </Link>
         <div className='sm:flex hidden cart_item_count w-[22px] h-[22px]  justify-center mt-[-20px] ml-[-20px] rounded-[11px] text-[#f8fafc]
         bg-[#dc2626] text-base '>5</div>

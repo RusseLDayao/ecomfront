@@ -5,12 +5,12 @@ import ShopCategory from './pages/ShopCategory';
 import LoginSignup from './pages/LoginSignup';
 import Cart from './pages/Cart'
 import Product from './pages/product';
-import Shop from './pages/shop'
+import Shop from './pages/Shop';
 
 
 function App() {
   return (
-    <div className="">
+    <div >
       <BrowserRouter>
         <Nabvar />
         <Shop />
