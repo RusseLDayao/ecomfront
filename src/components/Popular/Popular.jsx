@@ -1,10 +1,10 @@
 import React from 'react';
-import product_data from '../asset/data';
+import product_data from '../asset/popular_item';
 import Item from '../Item/Item';
 
 const Popular = () => {
   return (
-    <div className='popular flex-col items-center gap-[10px] h-[90px]'>
+    <div className='popular flex-col items-center gap-[10px] h-fit'>
       <h1 className='text-[#171717] text-[50px] font-[800] text-center'>Upcoming 11.11 Sale!</h1>
       <hr className='w-full h-[6px] rounded-[10px] bg-[#b91c1c]' />
 

@@ -18,28 +18,28 @@ export const Nabvar = () => {
         <img src={logo} alt="Sneaker Central" /> 
       </div>
       <ul className='text-lg font-bold items-center cursor-pointer gap-[50px] sm:flex hidden'>
-        <li onClick={() => {setMenu("newDrop")}}> <Link to='/newDrop'>New Drop!</Link> {menu==="newDrop"?<hr className='border-none bg-[#030712] 
+        <li onClick={() => {setMenu("NewDrop")}}> <Link to='/'>New Drop!</Link> {menu==="NewDrop"?<hr className='border-none bg-[#030712] 
         w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
         <li onClick={() => {setMenu("mens")}}><Link to='/mens'>Mens</Link> {menu==="mens"?<hr className='border-none bg-[#030712] 
         w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
-        <li onClick={() => {setMenu("womens")}}> <Link to='/womens'>Womens</Link>  {menu==="womens"?<hr className='border-none bg-[#030712] 
+        <li onClick={() => {setMenu("womans")}}> <Link to='/womans'>Womens</Link>  {menu==="womans"?<hr className='border-none bg-[#030712] 
         w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
         <li onClick={() => {setMenu("kids")}}> <Link to='/kids'>Kids</Link>  {menu==="kids"?<hr className='border-none bg-[#030712] 
         w-[100%] h-[3px] rounded-[10px]'/>:<></>}</li>
       </ul>
 
       <div className={ ` sm:hidden flex flex-1 justify-end items-center
-       font-bold pt-[60px] pr-[8px]` }>
+       font-bold pr-[8px]` }>
           <img src={toggle ? close : menu1} onClick={() => setToggle((prev) => !prev )} 
           alt="menu" className='w-[50px] h-[50px] object-contain justify-end'/>
         <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black absolute
           top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
             <ul className=' list-none flex text-lg font-bold items-center cursor-pointer gap-[50px] text-white flex-col'>
-              <li onClick={() => {setMenu("newDrop")}}> <Link to='/newDrop'>New Drop!</Link> {menu==="newDrop"?<hr className='border-none bg-[#f8fafc] 
+              <li onClick={() => {setMenu("NewDrop")}}> <Link to='/ '>New Drop!</Link> {menu==="NewDrop"?<hr className='border-none bg-[#f8fafc] 
               w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
               <li onClick={() => {setMenu("mens")}}><Link to='/mens'>Mens</Link> {menu==="mens"?<hr className='border-none bg-[#f8fafc] 
               w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
-              <li onClick={() => {setMenu("womens")}}> <Link to='/womens'>Womens</Link>  {menu==="womens"?<hr className='border-none bg-[#f8fafc] 
+              <li onClick={() => {setMenu("womans")}}> <Link to='/womans'>Womens</Link>  {menu==="womans"?<hr className='border-none bg-[#f8fafc] 
               w-[100%] h-[3px] rounded-[10px]'/>:<></>} </li>
               <li onClick={() => {setMenu("kids")}}> <Link to='/kids'>Kids</Link>  {menu==="kids"?<hr className='border-none bg-[#f8fafc] 
               w-[100%] h-[3px] rounded-[10px]'/>:<></>}</li>

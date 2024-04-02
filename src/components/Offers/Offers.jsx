@@ -3,8 +3,8 @@ import exclusive_img from '../asset/exclusive_img.svg';
 
 const Offers = () => {
   return (
-    <div className="offers flex flex-col items-center">  {/* Remove mt-[1000px] */}
-      <h1 className="text-5xl font-bold text-center text-[#171717]">
+    <div className="offers flex flex-col mt-[40px] items-center">  {/* Remove mt-[1000px] */}
+      <h1 className="text-[#171717] text-[50px] font-[800] text-center">
         EXCLUSIVE FOR YOU
       </h1>
       <hr className="w-full h-[6px] bg-[#b91c1c] rounded-lg" />
