@@ -7,42 +7,42 @@ import prd_6ncimg from '../asset/prd_6ncimg.png'
 
 let Newcollection_data = [
     {
-        id:1,
+        id:7,
         name:"Trae Young Unlimited 2 BasketBall",
         image: prd_1ncimg,
         new_price: 5700,
         old_price: 6000,
     },
     {
-        id:2,
+        id:8,
         name:"MidCity Low",
         image: prd_2ncimg,
         new_price: 4000,
         old_price: 5000,
     },
     {
-        id:3,
+        id:9,
         name:"Forum Mod Low",
         image: prd_3ncimg,
         new_price: 5600,
         old_price: 6000,
     },
     {
-        id:4,
+        id:10,
         name:"Air Jordan 1 High OG Yellow Ochre",
         image: prd_4ncimg,
         new_price: 5100,
         old_price: 6000,
     },
     {
-        id:5,
+        id:11,
         name:"Nike Dunk Low Twist ",
         image: prd_5ncimg,
         new_price: 7500,
         old_price: 8000,
     },
     {
-        id:6,
+        id:12,
         name:"Luka 2 PF",
         image: prd_6ncimg,
         new_price: 6300,

@@ -28,7 +28,7 @@ import prd_3img from '../asset/prd_3img.png'
 
 let AllProduct = [
     {
-        id:1,
+        id:13,
         name:"Jordan Deja",
         category:"woman",
         image: ap_1img,
@@ -36,7 +36,7 @@ let AllProduct = [
         old_price: 5500,
     },  
     {
-        id:2,
+        id:14,
         name:"Nike Air Max 90 LV8 ",
         category:"woman",
         image: ap_2img,
@@ -44,7 +44,7 @@ let AllProduct = [
         old_price: 7895,
     }, 
     {
-        id:3,
+        id:15,
         name:"Nike Air Max Dn",
         category:"woman",
         image: ap_3img,
@@ -52,7 +52,7 @@ let AllProduct = [
         old_price: 6000,
     }, 
     {
-        id:4,
+        id:16,
         name:"Nike Air Max Koko",
         category:"woman",
         image: ap_4img,
@@ -60,7 +60,7 @@ let AllProduct = [
         old_price: 5500,
     }, 
     {
-        id:5,
+        id:17,
         name:"Nike Air Max Plus Drift",
         category:"woman",
         image: ap_5img,
@@ -68,7 +68,7 @@ let AllProduct = [
         old_price: 9500,
     }, 
     {
-        id:6,
+        id:18,
         name:"Nike Cortez",
         category:"woman",
         image: ap_6img,
@@ -76,7 +76,7 @@ let AllProduct = [
         old_price: 7000,
     }, 
     {
-        id:7,
+        id:19,
         name:"Nike Initiator",
         category:"woman",
         image: ap_7img,
@@ -84,7 +84,7 @@ let AllProduct = [
         old_price: 4695,
     }, 
     {
-        id:8,
+        id:20,
         name:"Nike V2K Run",
         category:"woman",
         image: ap_8img,
@@ -92,7 +92,7 @@ let AllProduct = [
         old_price: 6895,
     }, 
     {
-        id:9,
+        id:21,
         name:"Nike Zoom Vomero 5",
         category:"woman",
         image: ap_9img,
@@ -100,7 +100,7 @@ let AllProduct = [
         old_price: 8895,
     }, 
     {
-        id:10,
+        id:22,
         name:"Nike Air Max 270",
         category:"kid",
         image: ap_10img,
@@ -108,7 +108,7 @@ let AllProduct = [
         old_price: 4995,
     }, 
     {
-        id:11,
+        id:23,
         name:"Nike Air Max Excee",
         category:"kid",
         image: ap_11img,
@@ -116,7 +116,7 @@ let AllProduct = [
         old_price: 3945,
     }, 
     {
-        id:12,
+        id:24,
         name:"Nike Air Max SYSTM",
         category:"kid",
         image: ap_12img,
@@ -124,7 +124,7 @@ let AllProduct = [
         old_price: 3395,
     }, 
     {
-        id:13,
+        id:25,
         name:"Nike Air Max 90 LTR",
         category:"kid",
         image: ap_13img,
@@ -132,7 +132,7 @@ let AllProduct = [
         old_price: 3795,
     }, 
     {
-        id:14,
+        id:26,
         name:"Nike Force 1 Low LV8 EasyOn",
         category:"kid",
         image: ap_14img,
@@ -140,7 +140,7 @@ let AllProduct = [
         old_price: 3995,
     }, 
     {
-        id:15,
+        id:27,
         name:"Nike Cortez Basic SL",
         category:"kid",
         image: ap_15img,
@@ -148,7 +148,7 @@ let AllProduct = [
         old_price: 2495,
     }, 
     {
-        id:16,
+        id:28,
         name:"Jordan 3 Retro 'Ivory'",
         category:"kid",
         image: ap_16img,
@@ -156,7 +156,7 @@ let AllProduct = [
         old_price: 4145,
     }, 
     {
-        id:17,
+        id:29,
         name:"Nike Force 1 Low LV8 EasyOn",
         category:"kid",
         image: ap_17img,
@@ -164,7 +164,7 @@ let AllProduct = [
         old_price: 3995,
     }, 
     {
-        id:18,
+        id:30,
         name:"Nike Force 1 Low EasyOn",
         category:"kid",
         image: ap_18img,
@@ -172,7 +172,7 @@ let AllProduct = [
         old_price: 3595,
     }, 
     {
-        id:19,
+        id:31,
         name:"Trae Young Unlimited 2 BasketBall",
         category:"men",
         image: prd_1ncimg,
@@ -180,7 +180,7 @@ let AllProduct = [
         old_price: 6000,
     },
     {
-        id:20,
+        id:32,
         name:"MidCity Low",
         category:"men",
         image: prd_2ncimg,
@@ -188,7 +188,7 @@ let AllProduct = [
         old_price: 5000,
     },
     {
-        id:21,
+        id:33,
         name:"Forum Mod Low",
         category:"men",
         image: prd_3ncimg,
@@ -196,7 +196,7 @@ let AllProduct = [
         old_price: 6000,
     },
     {
-        id:22,
+        id:34,
         name:"Air Jordan 1 High OG Yellow Ochre",
         category:"men",
         image: prd_4ncimg,
@@ -204,7 +204,7 @@ let AllProduct = [
         old_price: 6000,
     },
     {
-        id:23,
+        id:35,
         name:"Nike Dunk Low Twist ",
         category:"men",
         image: prd_5ncimg,
@@ -212,7 +212,7 @@ let AllProduct = [
         old_price: 8000,
     },
     {
-        id:24,
+        id:36,
         name:"Luka 2 PF",
         category:"men",
         image: prd_6ncimg,
@@ -220,7 +220,7 @@ let AllProduct = [
         old_price: 7000,
     },
     {
-        id:25,
+        id:37,
         name:"Jumpman MVP",
         category:"men",
         image: prd_1img,
@@ -228,7 +228,7 @@ let AllProduct = [
         old_price: 8995,
     },
     {
-        id:26,
+        id:38,
         name:"Air Jordan 1 Low SE",
         category:"men",
         image: prd_2img,
@@ -236,7 +236,7 @@ let AllProduct = [
         old_price: 6895,
     },
     {
-        id:27,
+        id:39,
         name:"Jordan Spizike Low",
         category:"men",
         image: prd_3img,
